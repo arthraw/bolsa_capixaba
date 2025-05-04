@@ -6,7 +6,7 @@ para análise.
 
 ### O que aprendi com o projeto
 
-Este projeto foi uma excelente oportunidade para aplicar e reforçar conceitos essenciais da engenharia de dados, além de integrar diversas tecnologias amplamente utilizadas no mercado. Abaixo estão os principais aprendizados:
+Este projeto foi uma excelente oportunidade para aplicar e reforçar conceitos essenciais da engenharia de dados, além de integrar diversas tecnologias amplamente utilizadas no mercado. Abaixo estão os meus principais aprendizados:
 
 - **PySpark / Apache Spark**: Realizei todo o processamento de dados em larga escala utilizando PySpark, aplicando transformações, limpezas e particionamento de forma eficiente e escalável.
 - **Web Scraping com Selenium**: Automatizei a extração de dados de um portal público usando Selenium, simulando o comportamento de um usuário real para obter os arquivos necessários.
@@ -22,10 +22,9 @@ Este projeto reforçou tanto a parte técnica quanto a visão arquitetural de um
 
 | Etapa              | Descrição                                    | Prioridade | Status       | Observações                      |
 |--------------------|----------------------------------------------|------------|--------------|----------------------------------|
-| Definir schema     | Definir o schema dos dados bronze/silver     | Alta       | Pendente     | Verificar colunas variáveis      |
+| Definir schema     | Definir o schema dos dados bronze/silver     | Alta       | Em Andamento | Verificar colunas variáveis      |
 | Upload para Azure  | Enviar dados bronze/silver para Data Lake    | Média      | Pendente     | Usar SDK do Azure                |
 | Melhorar DAGs      | Modularizar e aplicar retries nos operadores | Média      | Pendente     | Testar com DAG simples primeiro  |
-| Atualizar arquivos | Atualizar a pasta ao contrario de apagar ela | Alta       | Em andamento | Mudar forma de escrever os dados |
 
 
 ## Visão Geral
@@ -57,10 +56,7 @@ bolsa_capixaba/
 │   ├── processing/               # Transformações (ETL, limpeza, etc)
 │   ├── utils/                    # Funções auxiliares (log, conexões etc)
 │
-├── config/                      # Configurações (cfg)
-│
 ├── notebooks/                    # Notebooks para análise e prototipagem
-│
 │
 ├── data/                         # Dados locais temporários
 │   ├── bronze/

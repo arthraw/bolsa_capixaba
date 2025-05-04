@@ -1,0 +1,34 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Dados e arquivos temporários
+data/
+logs/
+config/
+plugins/
+
+# Arquivos de configuração sensíveis
+.env
+
+# Cache e metadados do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Airflow
+airflow.db
+*.pid
+*.log
+
+# Outros comuns
+*.bak
+*.swp
+*.tmp

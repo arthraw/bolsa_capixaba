@@ -6,10 +6,8 @@ load_dotenv(dotenv_path="/opt/airflow/.env")
 # env variables
 url = os.getenv('BOLSA_CAPIXABA_URL')
 storage_account_name = os.getenv('AZURE_STORAGE_ACCOUNT_NAME')
-storage_account_key = os.getenv('# AZURE_STORAGE_ACCOUNT_KEY')
+storage_account_key = os.getenv('AZURE_STORAGE_ACCOUNT_KEY')
 container_name = os.getenv('AZURE_CONTAINER_NAME')
-
-
 
 # paths variables
 src = os.path.join(os.getcwd(), '..')

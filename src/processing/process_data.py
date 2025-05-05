@@ -15,9 +15,9 @@ logger = logging.getLogger(__name__)
 
 cleaning_process = {
     'first_step' : rename_cols,
-    'second_step' : cast_col_types,
-    'third_step' : format_benefit_value,
-    'fourth_step' : create_aux_columns,
+    'second_step' : create_aux_columns,
+    'third_step' : cast_col_types,
+    'fourth_step' : format_benefit_value,
 }
 
 def process_data(directory_path: str) -> None:

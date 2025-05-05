@@ -10,5 +10,4 @@ expected_schema = StructType([
     StructField("ibge_code", StringType(), True),
     StructField("status", StringType(), True),
     StructField("uf", StringType(), True),
-    StructField("source_id", StringType(), True)
 ])

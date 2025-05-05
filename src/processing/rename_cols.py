@@ -19,8 +19,7 @@ def rename_cols(df: DataFrame) -> DataFrame:
         "Situacao": "status",
         "Id": "source_id"
     }
-
     for old_col, new_col in cols_rename.items():
         df = df.withColumnRenamed(old_col, new_col)
-
+    df = df.drop('source_id')
     return df

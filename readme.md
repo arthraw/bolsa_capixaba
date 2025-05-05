@@ -22,8 +22,8 @@ Este projeto reforçou tanto a parte técnica quanto a visão arquitetural de um
 
 | Etapa              | Descrição                                    | Prioridade | Status       | Observações                      |
 |--------------------|----------------------------------------------|------------|--------------|----------------------------------|
-| Definir schema     | Definir o schema dos dados bronze/silver     | Alta       | Em Andamento | Verificar colunas variáveis      |
-| Upload para Azure  | Enviar dados bronze/silver para Data Lake    | Média      | Pendente     | Usar SDK do Azure                |
+| Definir schema     | Definir o schema dos dados bronze/silver     | Alta       | Feito        | Verificar colunas variáveis      |
+| Upload para Azure  | Enviar dados bronze/silver para Data Lake    | Média      | Em andamento | Usar SDK do Azure                |
 | Melhorar DAGs      | Modularizar e aplicar retries nos operadores | Média      | Pendente     | Testar com DAG simples primeiro  |
 
 

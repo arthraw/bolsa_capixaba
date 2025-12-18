@@ -68,7 +68,7 @@ bolsa_capixaba/
 ├── Dockerfile                    # Containerização do projeto
 ├── docker-compose.yaml           # Configurações do airflow
 ├── README.md                     # Documentação inicial
-└── .env                          # Variáveis de ambiente (não versionar)
+└── .env
 ~~~
 
 
@@ -90,6 +90,11 @@ pip install -r requirements.txt
 ~~~~
 
 ## Como Executar
+Antes de rodar o projeto, crie um arquivo .env na raiz como este:
+~~~~text
+BOLSA_CAPIXABA_URL="url para pegar os dados da bolsa capixaba"
+~~~~
+
 Executando o projeto pelo docker:
 
 ~~~~bash
